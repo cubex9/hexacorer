@@ -16,10 +16,12 @@
 <script type="text/javascript">
 
     var s = new Snap();
+    var hc = null;
     //var bigCircle = s.circle(150, 150, 100).drag();
 
     Snap.load('svg/command-type-definition-settings.svg', function(f) {
-        s.append(f.select("#hc"));
+        hc = f.select("#hc")
+        s.append(hc);
     });
 
 
