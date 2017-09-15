@@ -1,0 +1,10 @@
+{
+  "type" : "CommandTypeDefinition",
+
+  "settings" : [
+    {
+      "code" : 1,
+      "name" : "NULLABLE"
+    }
+  ]
+}
